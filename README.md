@@ -3,19 +3,19 @@ A simple script for taking screenshots in i3wm using the prtscr button. You are 
 
 Firstly save the script as `~/.screenshot-i3.sh`. You need to set the script as executable like this:
 
-    chmod 755 ~/.screenshot-i3.sh
+    $ chmod 755 ~/.screenshot-i3.sh
   
 Now create a symlink to the script:
 
-    cd /usr/bin
+    $ cd /usr/bin
     
 <!-- asdf -->
 
-    sudo ln -s /home/username/.screenshot-i3.sh screenshot-i3  
+    $ sudo ln -s /home/username/.screenshot-i3.sh screenshot-i3  
 
 Now edit your i3 configuration file:
 
-    nano ~/.config/i3/config
+    $ nano ~/.config/i3/config
 
 And add these lines to the bottom:
 
