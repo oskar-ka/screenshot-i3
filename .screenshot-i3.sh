@@ -52,5 +52,3 @@ fi
 import ${params} ${file_path}
 xclip -selection clipboard -target image/png -i < ${file_path}
 echo Screenshot saved to $file_path
-
-exit 0
