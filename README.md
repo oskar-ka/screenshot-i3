@@ -7,7 +7,7 @@ Firstly save the script as `~/.screenshot-i3.sh`. You need to set the script as 
   
 Now create a symlink to the script:
 
-    $ cd /usr/bin
+    $ cd /usr/local/bin
     
 <!-- asdf -->
 
